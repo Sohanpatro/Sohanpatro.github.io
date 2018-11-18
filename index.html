@@ -1,35 +1,68 @@
+<!-- /*/**/ my edits -->
 <!DOCTYPE html>
 <html>
-
 <head>
-<meta charset="utf-8">
-<title>Sohan Patro @IITKGP</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Sohan Patro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	    <link rel="shortcut icon" href="images/favicon.ico">
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
-<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
-<![endif]-->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/menucollapse.js"></script>
-<script type="text/javascript" src="js/arrow78.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/menucollapse.js"></script>
+	<script type="text/javascript" src="js/arrow78.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+<!-- /*/**/ -->
+	<!-- <style>
+		.button:hover {/*
+        	 background-color: grey;
+        	 vertical-align: top;*/
+
+  text-decoration: none;
+  background-color: grey;
+  border-color: black;
+  color: red;
+    	}
+	</style> -->
+	<style>
+		.buttonHover:hover {
+			background-color: grey
+		}
+
+/*		.jive-link-external-small::after {
+		    display: inline-block;
+		    height: 12px;
+		    width: 12px;
+		    background: url(../images/new_tab.png) -655px -784px no-repeat;
+		    margin: 0 -15px .7ex 2px;
+		    /*margin: 0 -webkit-calc(-12px - .35ex) .7ex -webkit-calc(.35ex);
+		   // margin: 0 calc(-12px - .35ex) .7ex calc(.35ex);
+		    content: "";
+		    vertical-align: middle;
+
+		}
+*/
+	</style>
+</head>
 
 <body id="page-top" class="index" style="background-image: url('images/bg.png');">
 
@@ -49,14 +82,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span><a href="#"><img border="0" width="120" src="images/kgplogo.png"/></a></span>
+            <span><a href="http://www.iitkgp.ac.in/"  rel="noopener noreferrer" target="_blank"><img border="0" width="120" src="images/kgplogo.png"/></a></span>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!-- style="background-image: url('images/bg.png');" -->
+        	<!-- <style>
+		a:hover {
+        	 background: grey;
+    	}
+	</style> -->
             <ul class="nav navbar-nav navbar-right">
                 <li class="page-scroll">
-                    <a href=#"><b>Home</b></a>
+                	<!-- <div class="button">
+                		<a href="#"><b>Home</b></a>
+                	</div> -->
+                    <a href="#" class="button"><b>Home</b></a>
+                    <!-- <b><a href="#">Home</a></b> -->
                 </li>
                 <!-- <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-2-content').show();" href="#news">News</a>
@@ -70,19 +112,19 @@
                     </ul>
                 </li> -->
                 <li class="page-scroll">
-                    <a href="#publications">Publications</a>
+                    <a href="#publications"><b>Publications</b> </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#projects">Projects</a>
+                    <a href="#projects"><b>Projects</b> </a>
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="#courses">Courses</a>
+                    <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="#courses"><b>Courses</b> </a>
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#awards">Achievements</a>
+                    <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#awards"><b>Achievements</b> </a>
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-9-content').show();" href="#contact">Contact</a>
+                    <a onclick="javascript:reset_menus();$('#tab-9-content').show();" href="#contact"><b>Contact</b> </a>
                 </li>
                 <!-- <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
@@ -107,18 +149,29 @@
 
 <!-- Home Section -->
 <section id="home" style="margin-top:40px">
-<div class="container">
+	<div class="container">
         <div align="left" class="col-md-3">
+        	<br>
             <img id="mobile-img" src="images/sohan.jpg" width="200" border="0" height="200" alt="">
+            <br>
+
+			<!-- <form>
+				<input style="padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #60f69d; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value="GitHub" onclick="window.open('https://github.com/Sohanpatro/', '_blank')" />
+				&nbsp;&nbsp;&nbsp;
+				<input style="padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #60f69d; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value="LinkedIn" onclick="window.open('https://www.linkedin.com/in/sohan-patro-14086a130/', '_blank')" /> 
+				&nbsp;&nbsp;&nbsp;
+				<input style="padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #60f69d; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" class="buttonHover" type="button" value="Google Scholar" onclick="window.open('https://scholar.google.co.in/citations?user=o2-Rd2UAAAAJ', '_blank')" />
+				&nbsp;&nbsp;&nbsp;
+				<input style="padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #60f69d; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value="dblp" onclick="window.open('https://dblp.org/pers/hd/p/Patro:Sohan', '_blank')" /> 
+			</form> -->
         </div>
-        <div align="left" class="col-md-4">
-            <h3>Sohan Patro
+        <div align="left" class="col-md-4" width="70%">
+            <h3 style="font-family: Cambria">SOHAN PATRO</h3>
 
             <h4>Dual Degree student<br>
             Department of Computer Science and Engineering<br>
             Indian Institute of Technology Kharagpur<br>
-            Kharagpur, West Bengal, 721302<br>
-            India<br>
+            Kharagpur - 721302, West Bengal, India.<br> <br>
             Tel: <a href="tel:917872818006">+91-78728-18006</a><br/>
             
             Email:
@@ -128,6 +181,18 @@
                 spiderjam('sohanpatro2014','gmail.com');
                 -->
             </script><br/>
+            <!-- Github:  -->
+            <!-- <a target="_blank" href="https://github.com/Sohanpatro/" style="background-color: green">Github </a> -->
+            <!-- <form action="http://google.com">
+  			  <input target="_blank" type="button" value=" Go to Google" style="background-color: green; font: bold;" />
+			</form> -->
+			<br>
+			 <!-- <button type="button">Click Me!</button>  -->
+			 <a  rel="noopener noreferrer" target="_blank" href="https://github.com/Sohanpatro/" class="btn-sm btn-primary" style="font-size: large;">GitHub &raquo;</a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sohan-patro-14086a130/" class="btn-sm btn-primary" style="font-size: large;">LinkedIn &raquo;</a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://scholar.google.co.in/citations?user=o2-Rd2UAAAAJ" class="btn-sm btn-primary" style="font-size: large;">Google Scholar &raquo;</a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://dblp.org/pers/hd/p/Patro:Sohan" class="btn-sm btn-primary" style="font-size: large;">dblp &raquo;</a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1pISf03YCz1cugfktclYFMsL2qxd2s1oE" class="btn-sm btn-primary" style="font-size: large;" >CV (PDF) &raquo;</a>
             </h4>
         </div>
 
@@ -156,15 +221,15 @@
             <div class="allshow" style="display:none;" id="tab-1-content">
             <hr class="star-primary">
 
-            <p class="lead"> I am a final year Dual-degree student of the <a target="_blank" href="http://cse.iitkgp.ac.in/">Department of Computer Science and Engineering </a>  of the Indian Institute of Technology Kharagpur. </p>
+            <p class="lead"> I am a final year Dual-degree student of the <a target="_blank" href="http://cse.iitkgp.ac.in/">Department of Computer Science and Engineering </a>  of the Indian Institute of Technology, Kharagpur. </p>
 
-            
-            <p>My research interest lies in the vast domains of social media and social network analysis along with its applications in natural language processing, information retrieval and machine learning. I am motivated by the overarching theme how information can be leveraged to solve a plethora of problems. I substantiate my ideals with some of my past and current projects. </p>.	
+            <p><font size="label-danger" color="yellow"> <strong> UNDER CONSTRUCTION !!</strong></font></p>
+            <p> <font color="red"> My research interest lies in the vast domains of social media and social network analysis along with its applications in natural language processing, information retrieval and machine learning. I am motivated by the overarching theme how information can be leveraged to solve a plethora of problems. I substantiate my ideals with some of my past and current projects. </font> </p>
 
-            Education details<br />
+<!--             Education details<br />
             Class XII, Class X<br />
             CGPA, DR, IR<br />
-
+ -->
             <p><!-- <a href="bio.html" class="btn-sm btn-primary">Short Biography &raquo;</a>
                <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a> -->
                <a href="cv.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
@@ -185,20 +250,27 @@
             <div class="allshow" style="display:none;" id="tab-3-content">
             <hr class="star-primary">
 
-            <h2> Publications</h2>
+            <h2> PUBLICATIONS</h2>
  			        <ul>
             
-                 <li><span class="label label-success">SMERP'18</span> <a target="_blank" href="https://www.cse.iitk.ac.in/users/kripa/smerp2018/savitr-system-real-ritam.pdf">
-                 "SAVITR:A System for Real-time Location Extraction from Microblogs during Emergencies"</a>, Sohan Patro, Kaustubh Hiware, Avijit Ghosh, Rameshwar Bhaskaran
-                 , <b> Exploitation of Social Media for Emergency Relief and Preparedness (SMERP)</b>. collocated with the WWW'18 conference. <a style="float:right" data-toggle="collapse" data-target="#savitr">More details</a>
+                 <li><span class="label label-success"><a target="_blank" href="http://naacl2018.org/" class="button" style="color:white"><b>NAACL'18</b></a></span> <a target="_blank" href="https://aclanthology.coli.uni-saarland.de/papers/N18-5004/n18-5004">
+                 "CL Scholar: The ACL Anthology Knowledge Graph Miner"</a>, Mayank Singh, Pradeep Dogga, <br> Sohan Patro, Dhiraj Barnwal, Ritam Dutt, Rajarshi Haldar, Pawan Goyal and Animesh Mukherjee <br> <b> Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations</b>. <a style="float:right" data-toggle="collapse" data-target="#savitr">More details</a>
                  </li>
                  <div id="savitr" class="collapse">
                     <br />
-                     Some more information for Savitr
+                     
+                	<div align="center">
+            			<img id="mobile-img" src="images/cl scholar.png" width="70%" border="0" height="70%" alt="">
+        			</div>
+        			<br>
+        			We present CL Scholar, the ACL Anthology knowledge graph miner to facilitate highquality search and exploration of current research progress in the computational linguistics community. In contrast to previous works, periodically crawling, indexing and processing of new incoming articles is completely automated in the current system. CL Scholar utilizes both textual and network information for knowledge graph construction. As an additional novel initiative, CL Scholar supports more than 1200 scholarly natural language queries along with standard keywordbased search on constructed knowledge graph. It answers binary, statistical and list based natural language queries. The current system is deployed <a href="http://cnerg.iitkgp.ac.in/aclakg">here</a>. We also provide REST API support along with bulk download facility. Our code and data are available <a href="https://github.com/CLScholar">here</a>
                  </div>
                  <br />
 
-                
+               <!--  <div align="center">
+            <img id="mobile-img" src="images/sohan.jpg" width="10%" border="0" height="10%" alt="">
+        </div> -->
+
             </ul>
 
             </div>
