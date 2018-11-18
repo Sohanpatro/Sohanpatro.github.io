@@ -61,6 +61,25 @@
 
 		}
 */
+		.topButton {
+		    background-color: white; /* Green */
+		    border: none;
+		    border-radius: 12px;
+		    color: black;
+		    padding: 8px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    -webkit-transition-duration: 0.4s; /* Safari */
+		    transition-duration: 0.4s;
+		    cursor: pointer;
+		}
+		.topButton:hover {
+		    background-color: grey;
+		    color: white;
+		}
 	</style>
 </head>
 
@@ -93,11 +112,12 @@
     	}
 	</style> -->
             <ul class="nav navbar-nav navbar-right">
-                <li class="page-scroll">
-                	<!-- <div class="button">
-                		<a href="#"><b>Home</b></a>
+                <li class="page-scroll"><!-- 
+                	<div class="topButton">
+                		<a href="#"><b>Homes</b></a>
                 	</div> -->
-                    <a href="#" class="button"><b>Home</b></a>
+                    <!-- <a href="#" class="button"><b>Home</b></a> -->
+                    <button class="topButton" onclick="window.location.href='#'">Home</button>
                     <!-- <b><a href="#">Home</a></b> -->
                 </li>
                 <!-- <li class="page-scroll">
@@ -112,19 +132,27 @@
                     </ul>
                 </li> -->
                 <li class="page-scroll">
-                    <a href="#publications"><b>Publications</b> </a>
+                    <button class="topButton" onclick="window.location.href='#publications'">Publications</button>
+                    <!-- <a href="#publications"><b>Publications</b> </a> -->
                 </li>
                 <li class="page-scroll">
-                    <a href="#projects"><b>Projects</b> </a>
+                    <button class="topButton" onclick="window.location.href='#projects'">Projects</button>
+                    <!-- <a href="#projects"><b>Projects</b> </a> -->
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="#courses"><b>Courses</b> </a>
+                    <button class="topButton" onclick="window.location.href='#courses'">Courses</button>
+                    <!-- <a href="#courses"><b>Courses</b> </a> -->
+                    <!-- <a onclick="javascript:reset_menus();$('#tab-4-content').show();" href="#courses"><b>Courses</b> </a> -->
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#awards"><b>Achievements</b> </a>
+                    <button class="topButton" onclick="window.location.href='#awards'">Achievements</button>
+                    <!-- <a href="#awards"><b>Achievements</b> </a> -->
+                    <!-- <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#awards"><b>Achievements</b> </a> -->
                 </li>
                 <li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-9-content').show();" href="#contact"><b>Contact</b> </a>
+                    <button class="topButton" onclick="window.location.href='#contact'">Contact</button>
+                    <!-- <a href="#contact"><b>Contact</b> </a> -->
+                    <!-- <a onclick="javascript:reset_menus();$('#tab-9-content').show();" href="#contact"><b>Contact</b> </a> -->
                 </li>
                 <!-- <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
