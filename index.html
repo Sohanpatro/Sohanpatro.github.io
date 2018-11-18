@@ -80,6 +80,33 @@
 		    background-color: grey;
 		    color: white;
 		}
+
+
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+		.button span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+}
+
 	</style>
 </head>
 
@@ -118,7 +145,7 @@
                 	</div> -->
                     <!-- <a href="#" class="button"><b>Home</b></a> -->
                     <button class="topButton" onclick="window.location.href='#'">Home</button>
-                    <!-- <b><a href="#">Home</a></b> -->
+                    <!-- <a href="#" padding=".3em .5em" display= "inline-block"> <button class="topButton">Home</button></a> -->
                 </li>
                 <!-- <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-2-content').show();" href="#news">News</a>
@@ -216,11 +243,45 @@
 			</form> -->
 			<br>
 			 <!-- <button type="button">Click Me!</button>  -->
-			 <a  rel="noopener noreferrer" target="_blank" href="https://github.com/Sohanpatro/" class="btn-sm btn-primary" style="font-size: large;">GitHub &raquo;</a>
-			 <a  rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sohan-patro-14086a130/" class="btn-sm btn-primary" style="font-size: large;">LinkedIn &raquo;</a>
-			 <a  rel="noopener noreferrer" target="_blank" href="https://scholar.google.co.in/citations?user=o2-Rd2UAAAAJ" class="btn-sm btn-primary" style="font-size: large;">Google Scholar &raquo;</a>
-			 <a  rel="noopener noreferrer" target="_blank" href="https://dblp.org/pers/hd/p/Patro:Sohan" class="btn-sm btn-primary" style="font-size: large;">dblp &raquo;</a>
-			 <a  rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1pISf03YCz1cugfktclYFMsL2qxd2s1oE" class="btn-sm btn-primary" style="font-size: large;" >CV (PDF) &raquo;</a>
+			 <div>
+			 	<style >
+				.btn-primary span {
+				  cursor: pointer;
+				  display: inline-block;
+				  position: relative;
+				  transition: 0.5s;
+				}
+
+				.btn-primary span:after {
+				  content: '\00bb';
+				  position: absolute;
+				  opacity: 0;
+				  top: 0;
+				  right: -20px;
+				  transition: 0.5s;
+				}
+
+				.btn-primary:hover span {
+				  padding-right: 25px;
+				}
+
+				.btn-primary:hover span:after {
+				  opacity: 1;
+				  right: 0;
+				}
+				</style>
+
+			 <a  rel="noopener noreferrer" target="_blank" href="https://github.com/Sohanpatro/" class="btn-sm btn-primary" style="font-size: large; vertical-align:middle"><span> GitHub</span></a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sohan-patro-14086a130/" class="btn-sm btn-primary" style="font-size: large; vertical-align:middle"><span> LinkedIn</span></a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://scholar.google.co.in/citations?user=o2-Rd2UAAAAJ" class="btn-sm btn-primary" style="font-size: large; vertical-align:middle"><span> Google Scholar</span></a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://dblp.org/pers/hd/p/Patro:Sohan" class="btn-sm btn-primary" style="font-size: large; vertical-align:middle"><span> dblp</span></a>
+			 <a  rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1pISf03YCz1cugfktclYFMsL2qxd2s1oE" class="btn-sm btn-primary" style="font-size: large; vertical-align:middle"><span> CV (PDF)</span></a>
+
+			 <!-- <a  rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/sohan-patro-14086a130/" class="btn-sm btn-primary" style="font-size: large;">LinkedIn &raquo;</a> -->
+			 <!-- <a  rel="noopener noreferrer" target="_blank" href="https://scholar.google.co.in/citations?user=o2-Rd2UAAAAJ" class="btn-sm btn-primary" style="font-size: large;">Google Scholar &raquo;</a> -->
+			 <!-- <a  rel="noopener noreferrer" target="_blank" href="https://dblp.org/pers/hd/p/Patro:Sohan" class="btn-sm btn-primary" style="font-size: large;">dblp &raquo;</a> -->
+			 <!-- <a  rel="noopener noreferrer" target="_blank" href="https://drive.google.com/open?id=1pISf03YCz1cugfktclYFMsL2qxd2s1oE" class="btn-sm btn-primary" style="font-size: large;" >CV (PDF) &raquo;</a> -->
+			 </div>
             </h4>
         </div>
 
